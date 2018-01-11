@@ -24,6 +24,13 @@ li
 	color: black;
 }
 
+#bloc-central
+{
+	display: none;
+	flex-direction: column;
+}
+
+
 .bouton_menu
 {
 	color:black;
@@ -174,4 +181,14 @@ footer
 	text-decoration: underline;
 }
 
+#bouton-afficher
+{
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	height: 30px;
+	width: 500px;
+	margin-top: 100px;
+
+}
 
